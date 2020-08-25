@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -31,17 +32,17 @@ public class UsersViewer extends AppCompatActivity {
         UsersList =new ArrayList();
         recyclerView = findViewById(R.id.recyclerView);
         images = new ArrayList<>();
-        UsersAdapter=new UsersAdapter(this,UsersList);
+
         LinearLayoutManager layoutManager
                 = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setHasFixedSize(true);
-        recyclerView.setAdapter(UsersAdapter);
         progressDialog=new ProgressDialog(this);
         progressDialog.setMessage(getString(R.string.id_7));
        new Libs(this).loadCountries(new Libs.OnLoadListener() {
             @Override
             public void OnLoad(ArrayList<Country> countriesList) {
+
                 loadUsers(countriesList);
 
             }
@@ -63,13 +64,14 @@ public class UsersViewer extends AppCompatActivity {
                             age = "";
                         }
 
+
                         String city = String.valueOf(user.child("city").getValue());
                         String country = String.valueOf(user.child("country").getValue());
                         String name = String.valueOf(user.child("name").getValue());
                         String profileImage = String.valueOf(user.child("profileImage").getValue());
                         String likes = String.valueOf(user.child("likes").getChildrenCount());
                         String love = String.valueOf(user.child("love").getChildrenCount());
-                        boolean match_plus = (boolean) user.child("iamUsingMatchPlus").getValue();
+                        boolean match_plus = (boolean) user.child("match_plus").getValue();
                         String fakeCountry = String.valueOf(user.child("fakeCountry").getValue());
                         String userCountryCode = "";
                         try {
@@ -113,6 +115,8 @@ public class UsersViewer extends AppCompatActivity {
                     }
 
                 }
+                UsersAdapter=new UsersAdapter(UsersViewer.this,UsersList);
+                recyclerView.setAdapter(UsersAdapter);
                 UsersAdapter.notifyDataSetChanged();
             }
             @Override
