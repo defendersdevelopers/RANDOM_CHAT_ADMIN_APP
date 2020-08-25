@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:onClick="edit_privacy"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="1dp"
+            android:id="@+id/profileImage"
+            app:civ_border_color="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loading"/>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_gravity="center"
+            android:text="@string/id_117"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/arb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/id_116"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#717171"
+            android:textSize="13dp"
+            android:fontFamily="@font/arb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/id_115"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#717171"
+            android:textSize="13dp"
+            android:fontFamily="@font/arb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#717171"
+            android:textSize="15dp"
+            android:id="@+id/improperLanguageReportsCount"
+            android:fontFamily="@font/arb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#717171"
+            android:textSize="14dp"
+            android:fontFamily="@font/arb_1"
+            android:id="@+id/improperBehaviorReportsCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/imagesViewer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth" />
+
+    <FrameLayout
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="save_changes"
+        >
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            xmlns:fancy="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@color/colorPrimary"
+            fancy:fb_focusColor="@color/colorPrimaryDark"
+            fancy:fb_radius="5dp"
+            fancy:fb_text=""
+            fancy:fb_textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/arb_1"
+            android:id="@+id/blockText"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="@string/id_114" />
+
+    </FrameLayout>
+</LinearLayout>

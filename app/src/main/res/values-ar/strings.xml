@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">KYLE ADMIN</string>
+    <string name="id_1">لم تقم بإدخال اى بيانات بعد</string>
+    <string name="id_2">تم حفظ التغيير بنجاح !</string>
+    <string name="id_6">تم الحظر بنجاح !</string>
+    <string name="id_7">برجاء الانتظار ❤</string>
+    <string name="id_8">من نحن</string>
+    <string name="id_9">سياسة الخصوصية</string>
+
+
+    <string name="id_13">مستخدم</string>
+    <string name="id_14">" seconds ago"</string>
+    <string name="id_15">" minutes ago"</string>
+    <string name="id_16">" hours ago"</string>
+    <string name="id_17">" days ago"</string>
+    <string name="id_18">Online</string>
+    <string name="id_19">"Online . "</string>
+    <string name="id_20">اجمالى عدد التفاعلات</string>
+    <string name="id_21">التفاعلات</string>
+    <string name="id_22">راندوم</string>
+    <string name="id_23">اعجبنى</string>
+    <string name="id_24">احببته</string>
+    <string name="id_25">اجمالى عدد المراسلات</string>
+    <string name="id_26">المراسلات</string>
+    <string name="id_28">اجمالى عدد الاجهزه</string>
+    <string name="id_29">الاجهزه</string>
+    <string name="id_30">اجمالى عدد المستخدمين</string>
+    <string name="id_31">المستخدمين</string>
+    <string name="id_32">رجل</string>
+    <string name="id_33">انثى</string>
+    <string name="id_34">ولد</string>
+    <string name="id_35">بنت</string>
+    <string name="id_36">صوت</string>
+    <string name="id_37">رسالة صوتية</string>
+    <string name="id_38">صورة</string>
+    <string name="id_39">مكالمة</string>
+    <string name="id_40">مكالمة صوت</string>
+    <string name="id_41">مكالمة فيديو</string>
+    <string name="id_42">نص</string>
+    <string name="id_43">رسالة نصية</string>
+    <string name="id_44">اخرى</string>
+
+    <string name="id_46">تم حفظ التغيير بنجاح !</string>
+    <string name="id_47">ألغاء الحظر</string>
+    <string name="id_48">حظر</string>
+
+    <string name="id_52">يوجد خطأ فى البريد الالكترونى او كلمة المرور</string>
+    <string name="id_53">لوحة الادارة</string>
+    <string name="id_54">البريد الالكترونى</string>
+    <string name="id_55">كلمة المرور</string>
+    <string name="id_56">تسجيل الدخول</string>
+    <string name="id_58">إجمالى عدد المستخدمين</string>
+    <string name="id_59">المستخدمين النشطين حاليا</string>
+    <string name="id_60">المستخدمين الغير نشطين</string>
+    <string name="id_61">التفاعلات</string>
+    <string name="id_62">انقر لعرض الاحصائيات</string>
+    <string name="id_63">الاجهزة</string>
+    <string name="id_65">الجنس</string>
+    <string name="id_67">الرسائل</string>
+    <string name="id_69">من نحن ؟</string>
+    <string name="id_70">تعديل</string>
+    <string name="id_71">سياسة الخصوصية</string>
+    <string name="id_72">تعديل</string>
+    <string name="id_74">( حظر - تعديل - اشعار )</string>
+    <string name="id_75">المناطق الجغرافية</string>
+    <string name="id_76">( اضافة - حذف )</string>
+    <string name="id_77">مراجعة البلاغات</string>
+    <string name="id_78">( مراجعة بلاغات المستخدمين )</string>
+    <string name="id_79">ارسال اشعار</string>
+    <string name="id_80">( ارسل اشعارا لكل المستخدمين )</string>
+    <string name="id_81">قم هنا بادخال بريد الدعم</string>
+    <string name="id_83">حفظ التعديلات</string>
+    <string name="id_84">ادواتى</string>
+
+    <string name="id_86">الاجهزة</string>
+    <string name="id_88">الرسائل</string>
+    <string name="id_90">البلاغات</string>
+    <string name="id_91">ارسال اشعار</string>
+    <string name="id_100">مزيد من التفاصيل</string>
+    <string name="id_102">البيانات الحالية</string>
+    <string name="id_103">تعديل عدد الجواهر</string>
+    <string name="id_104">تأكيد</string>
+    <string name="id_105">إلغاء</string>
+    <string name="id_106">ادخل عدد الجواهر</string>
+    <string name="id_107">من نحن</string>
+    <string name="id_108">حفظ التعديلات</string>
+    <string name="id_109">تجاهل</string>
+    <string name="id_110">العنوان</string>
+    <string name="id_111">ادخل محتوى الاشعار هنا</string>
+    <string name="id_112">ارسال</string>
+    <string name="id_113">تراجع</string>
+    <string name="id_114">حظر</string>
+    <string name="id_115">تصرف مسيئ : 20 أبلاغ</string>
+    <string name="id_116">لغة مسيئة : 20 أبلاغ</string>
+    <string name="id_117">اسم المستخدم</string>
+    <string name="id_118">اسم المستخدم / 28</string>
+    <string name="id_119">نبذة مختصرة ^^</string>
+    <string name="id_120">اضافة جواهر</string>
+    <string name="id_121">حظر</string>
+    <string name="id_123">"  Match plus"</string>
+    <string name="id_124">"  VIP"</string>
+
+
+    <string name="id_125">الاحصائيات</string>
+    <string name="id_126">الموقع</string>
+    <string name="id_127">تفاعلات كايلى</string>
+    <string name="id_128">الدولة</string>
+
+    <string name="id_129">إبلاغ</string>
+    <string name="id_130">لا يوجد اى بيانات بعد</string>
+    <string name="id_131">الشروط والاحكام</string>
+    <string name="id_132">تذكرني</string>
+    <string name="id_133">ارسل لى اشعار عندما يقوم احد المستخدمين بالبحث عن شخص عشوائى , تساعدك هذه الميزه فى حالة كان التطبيق جديد ولا يوجد العديد من المستخدمين هناك</string>
+
+</resources>
